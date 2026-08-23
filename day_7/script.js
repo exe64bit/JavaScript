@@ -1,1 +1,4 @@
-console.log("Hello");
+let arr = [12,99,46,76,5]
+
+
+
