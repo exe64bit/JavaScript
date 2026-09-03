@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.bulb{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+button{
+    padding: 10px 30px;
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+    border: none;
+}
+
+.lightBulb{
+    background-color: yellow;
+    box-shadow: 10px 0px 100px yellow;;
+}
